@@ -1,10 +1,10 @@
 image: code.sphoton.com:5050/ci-cd/document-builder:latest
 
-cache:
-  key: $CI_JOB_STAGE-$CI_COMMIT_REF_SLUG
-  paths:
-    - node_modules
-    - .docusaurus
+# cache:
+#   key: $CI_JOB_STAGE-$CI_COMMIT_REF_SLUG
+#   paths:
+#     - node_modules
+#     - .docusaurus
 
 variables:
   DOCKER_HOST: tcp://docker:2375
