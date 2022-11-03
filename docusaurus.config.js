@@ -23,6 +23,16 @@ const config = {
   i18n: {
     defaultLocale: 'vi',
     locales: ['vi','en'],
+    localeConfigs: {
+      vi: {
+        label: 'Tiếng việt',
+        htmlLang: 'vi'
+      },
+      en: {
+        label: 'English',
+        htmlLang: 'en'
+      }
+    }
   },
 
   presets: [
@@ -57,6 +67,10 @@ const config = {
             label: 'Hỗ trợ',
             position: 'left'
           },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'left'
+          // },
           {
             href: 'https://code.sphoton.com/ducnt/template-documents',
             label: 'Template',

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Documentation",
+    "description": "The title in the navbar"
+  },
+  "item.label.Hỗ trợ": {
+    "message": "Support",
+    "description": "Navbar item with label support"
+  },
+  "item.label.Template": {
+    "message": "Template",
+    "description": "Navbar item with label Template"
+  }
+}
