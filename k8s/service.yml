@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: documents
+spec:
+  type: LoadBalancer
+  selector:
+    app: documents
+  ports:
+  - port: 3000
+    nodePort: 30000
+---
+kind: Secret
+apiVersion: v1
+metadata:
+  name: document-secret
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJjb2RlLnNwaG90b24uY29tOjUwNTAiOnsidXNlcm5hbWUiOiJvYXV0aDIiLCJwYXNzd29yZCI6ImdscGF0LXlqRXVrcG9ZakVDd2IyWmRUQnh3IiwiYXV0aCI6ImIyRjFkR2d5T21kc2NHRjBMWGxxUlhWcmNHOVpha1ZEZDJJeVdtUlVRbmgzIn19fQ==
+type: kubernetes.io/dockerconfigjson
