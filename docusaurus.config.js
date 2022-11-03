@@ -41,6 +41,7 @@ const config = {
       }),
     ],
   ],
+  themes: ['docusaurus-theme-search-typesense'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -70,6 +71,26 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      typesense: {
+        typesenseCollectionName: 'docusaurus-2', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
+        
+        typesenseServerConfig: {
+          nodes: [
+            {
+              host: 'localhost',
+              port: 8108,
+              protocol: 'http',
+            },
+          ],
+          apiKey: 'Hu52dwsas2AdxdE',
+        },
+  
+        // Optional: Typesense search parameters: https://typesense.org/docs/0.21.0/api/search.md#search-parameters
+        typesenseSearchParameters: {},
+  
+        // Optional
+        contextualSearch: true,
       },
     }),
   plugins: ['docusaurus-plugin-sass'],
