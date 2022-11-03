@@ -6,12 +6,18 @@ cache:
     - node_modules
     - .docusaurus
 
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
+
 stages:
   - build
   - deploy
 
 build:
   stage: build
+  services:
+    - docker:20.10.16-dind
   before_script:
     - yarn install
     # login registry
