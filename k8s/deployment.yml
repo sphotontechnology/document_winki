@@ -21,5 +21,4 @@ spec:
         image: code.sphoton.com:5050/ducnt/documents:latest
         resources: {}
         ports:
-        - containerPort: 3000
-          hostPort: 3000
+        - containerPort: 3001

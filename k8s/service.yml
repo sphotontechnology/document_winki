@@ -7,7 +7,7 @@ spec:
   selector:
     app: documents
   ports:
-  - port: 3000
+  - port: 3001
     nodePort: 30000
 ---
 kind: Secret
