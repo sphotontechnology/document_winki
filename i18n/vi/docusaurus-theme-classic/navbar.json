@@ -3,7 +3,7 @@
     "message": "Documentation",
     "description": "The title in the navbar"
   },
-  "item.label.Hỗ trợ": {
+  "item.label.Support": {
     "message": "Hỗ trợ",
     "description": "Navbar item with label Hỗ trợ"
   },

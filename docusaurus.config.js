@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,9 +17,6 @@ const config = {
   organizationName: 'ducnt',
   projectName: 'template-documents',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'vi',
     locales: ['vi','en'],
@@ -42,16 +39,24 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: "/"
+          routeBasePath: '/'
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/scss/global.scss'),
-        },
-      }),
-    ],
+          customCss: require.resolve('./src/scss/global.scss')
+        }
+      })
+    ]
   ],
-  themes: ['docusaurus-theme-search-typesense'],
+  themes: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexBlog: false,
+        language: 'vi'
+      }
+    ]
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -59,55 +64,39 @@ const config = {
         title: 'Documentation',
         logo: {
           alt: 'Documentation Logo',
-          src: 'img/logo.png',
+          src: 'img/logo.png'
         },
         items: [
           {
             href: 'https://team.sphoton.com/sphoton/channels/pj-documentation',
-            label: 'Hỗ trợ',
+            label: 'Support',
             position: 'left'
           },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'left'
-          // },
           {
             href: 'https://code.sphoton.com/ducnt/template-documents',
             label: 'Template',
-            position: 'right',
+            position: 'right'
           },
-        ],
+          {
+            type: 'localeDropdown',
+            position: 'right'
+          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'right'
+          // }
+        ]
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} sPhoton technology co.,ltd. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} sPhoton technology co.,ltd. Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      typesense: {
-        typesenseCollectionName: 'docusaurus-2', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
-        
-        typesenseServerConfig: {
-          nodes: [
-            {
-              host: 'localhost',
-              port: 8108,
-              protocol: 'http',
-            },
-          ],
-          apiKey: 'Hu52dwsas2AdxdE',
-        },
-  
-        // Optional: Typesense search parameters: https://typesense.org/docs/0.21.0/api/search.md#search-parameters
-        typesenseSearchParameters: {},
-  
-        // Optional
-        contextualSearch: true,
-      },
+        darkTheme: darkCodeTheme
+      }
     }),
-  plugins: ['docusaurus-plugin-sass'],
-};
+  plugins: ['docusaurus-plugin-sass']
+}
 
-module.exports = config;
+module.exports = config
