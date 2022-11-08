@@ -73,7 +73,7 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://code.sphoton.com/ducnt/template-documents',
+            href: 'https://code.sphoton.com/documents/template',
             label: 'Template',
             position: 'right'
           },
