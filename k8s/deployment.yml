@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: documents-deployment
 spec:
-  replicas: 1
+  replicas: 2
   minReadySeconds: 10
   selector:
     matchLabels:
@@ -17,7 +17,7 @@ spec:
         - name: document-secret
       containers:
       - name: documents
-        image: code.sphoton.com:5050/ducnt/documents:latest
+        image: code.sphoton.com:5050/documents/documents:latest
         resources: {}
         ports:
         - containerPort: 3000
