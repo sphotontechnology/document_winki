@@ -2,13 +2,5 @@
   "title": {
     "message": "Documentation",
     "description": "The title in the navbar"
-  },
-  "item.label.Support": {
-    "message": "Support",
-    "description": "Navbar item with label Support"
-  },
-  "item.label.Template": {
-    "message": "Template",
-    "description": "Navbar item with label Template"
   }
 }

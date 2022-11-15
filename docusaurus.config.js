@@ -49,13 +49,13 @@ const config = {
     ]
   ],
   themes: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        indexBlog: false,
-        language: 'vi'
-      }
-    ]
+    // [
+    //   require.resolve('@cmfcmf/docusaurus-search-local'),
+    //   {
+    //     indexBlog: false,
+    //     language: 'vi'
+    //   }
+    // ]
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -67,11 +67,6 @@ const config = {
           src: 'img/logo.png'
         },
         items: [
-          {
-            href: 'https://team.sphoton.com/sphoton/channels/pj-documentation',
-            label: 'Hỗ trợ',
-            position: 'left'
-          },
           {
             type: 'localeDropdown',
             position: 'right'
