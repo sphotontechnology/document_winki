@@ -17,7 +17,7 @@ spec:
         - name: document-secret
       containers:
       - name: deploymentcontainer
-        image: code.sphoton.com:5050/documents/documents:latest
+        image: code.sphoton.com:5050/documents/homey:latest
         resources: {}
         ports:
         - containerPort: 3000
