@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation',
-  tagline: 'Hướng dẫn viết tài liệu',
+  tagline: 'Tài liệu hướng dẫn sử dụng',
   url: 'https://docs.sphoton.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -69,13 +69,8 @@ const config = {
         items: [
           {
             href: 'https://team.sphoton.com/sphoton/channels/pj-documentation',
-            label: 'Support',
+            label: 'Hỗ trợ',
             position: 'left'
-          },
-          {
-            href: 'https://code.sphoton.com/documents/template',
-            label: 'Template',
-            position: 'right'
           },
           {
             type: 'localeDropdown',

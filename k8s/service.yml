@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: documents
+  name: servicename
 spec:
   type: LoadBalancer
   selector:
-    app: documents
+    app: servicename
   ports:
   - port: 3000
     nodePort: 30000

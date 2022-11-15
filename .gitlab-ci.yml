@@ -1,11 +1,5 @@
 image: code.sphoton.com:5050/ci-cd/document-builder:latest
 
-# cache:
-#   key: $CI_JOB_STAGE-$CI_COMMIT_REF_SLUG
-#   paths:
-#     - node_modules
-#     - .docusaurus
-
 variables:
   DOCKER_HOST: tcp://docker:2375
   DOCKER_TLS_CERTDIR: ""
@@ -38,9 +32,11 @@ deploy:
   before_script:
     - chmod 400 $PRIVATE_SSH_KEY
     - 'export DIGEST=$(curl -s --header "PRIVATE-TOKEN: $TOKEN_READ_API" $CI_API_V4_URL/projects/$CI_PROJECT_ID/registry/repositories/9/tags/latest | jq -r ".digest")'
+    - sed -i "s/deploymentname/$CI_PROJECT_NAME/g" k8s/deployment.yml
+    - sed -i "s/servicename/$CI_PROJECT_NAME/g" k8s/service.yml
     - sed -i "s/:latest/@$DIGEST/g" k8s/deployment.yml
     - scp -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY -r k8s/* $USER_HOST@$IP_HOST:/k8s/documents
   script:
     - ssh -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY "$USER_HOST@$IP_HOST" 
-      "cd /k8s/documents && minikube kubectl -- apply -f service.yml &&
+      "cd /k8s/$CI_PROJECT_NAME && minikube kubectl -- apply -f service.yml &&
       minikube kubectl -- apply -f deployment.yml"
