@@ -49,13 +49,13 @@ const config = {
     ]
   ],
   themes: [
-    // [
-    //   require.resolve('@cmfcmf/docusaurus-search-local'),
-    //   {
-    //     indexBlog: false,
-    //     language: 'vi'
-    //   }
-    // ]
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexBlog: false,
+        language: 'vi'
+      }
+    ]
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

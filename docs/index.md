@@ -5,4 +5,4 @@ sidebar_position: 0
 ---
 # Giới thiệu
 
-Đây là trang hướng dẫn viết tài liệu. Let's go
+Tài liệu hướng dẫn sử dụng website WINKY
