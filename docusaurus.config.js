@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   organizationName: 'documents',
-  projectName: 'winky',
+  projectName: 'winki',
 
   i18n: {
     defaultLocale: 'vi',

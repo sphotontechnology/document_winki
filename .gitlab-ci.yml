@@ -3,6 +3,7 @@ image: $CI_REGISTRY/ci-cd/document-builder:latest
 variables:
   DOCKER_HOST: tcp://docker:2375
   DOCKER_TLS_CERTDIR: ""
+  PATH_K8S_REMOTE: /minikube
 
 stages:
   - build
@@ -42,8 +43,8 @@ deploy:
     - sed -i "s/servicename/$CI_PROJECT_NAME/g" k8s/service.yml
     - sed -i "s/:latest/@$DIGEST/g" k8s/deployment.yml
     - sed -i "s/deploymentcontainer/$CI_PROJECT_NAME/g" k8s/deployment.yml
-    - scp -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY -r k8s/* $USER_HOST@$IP_HOST:/k8s/$CI_PROJECT_NAME
+    - scp -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY -r k8s/* $USER_HOST@$IP_HOST:$PATH_K8S_REMOTE/$CI_PROJECT_NAME
   script:
     - ssh -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY "$USER_HOST@$IP_HOST"
-      "cd /k8s/$CI_PROJECT_NAME && minikube kubectl -- apply -f service.yml &&
+      "cd $PATH_K8S_REMOTE/$CI_PROJECT_NAME && minikube kubectl -- apply -f service.yml &&
       minikube kubectl -- apply -f deployment.yml"
