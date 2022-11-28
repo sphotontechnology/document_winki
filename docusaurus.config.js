@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
-  tagline: 'Tài liệu hướng dẫn sử dụng',
+  title: 'WINKI',
+  tagline: 'Tài liệu hướng dẫn sử dụng winki',
   url: 'https://docs.sphoton.com',
-  baseUrl: '/',
+  baseUrl: '/winki',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'ducnt',
-  projectName: 'template-documents',
+  organizationName: 'documents',
+  projectName: 'winky',
 
   i18n: {
     defaultLocale: 'vi',
@@ -79,7 +79,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} sPhoton technology co.,ltd. Built with Docusaurus.`
+        copyright: `Copyright © ${new Date().getFullYear()} sPhoton technology co.,ltd. Built with Winki.`
       },
       prism: {
         theme: lightCodeTheme,
