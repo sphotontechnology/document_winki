@@ -9,11 +9,3 @@ spec:
   ports:
   - port: 3000
     nodePort: 30001
----
-kind: Secret
-apiVersion: v1
-metadata:
-  name: document-secret
-data:
-  .dockerconfigjson: eyJhdXRocyI6eyJjb2RlLnNwaG90b24uY29tOjUwNTAiOnsidXNlcm5hbWUiOiJvYXV0aDIiLCJwYXNzd29yZCI6ImdscGF0LVZESkpFem11XzZ6WEVTYnF4WXVuIiwiYXV0aCI6ImIyRjFkR2d5T21kc2NHRjBMVlpFU2twRmVtMTFYelo2V0VWVFluRjRXWFZ1In19fQ==
-type: kubernetes.io/dockerconfigjson

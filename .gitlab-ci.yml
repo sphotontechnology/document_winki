@@ -1,4 +1,4 @@
-image: code.sphoton.com:5050/ci-cd/document-builder:latest
+image: $CI_REGISTRY/ci-cd/document-builder:latest
 
 variables:
   DOCKER_HOST: tcp://docker:2375
@@ -22,7 +22,11 @@ build:
   script:
     - docker build -t $CI_REGISTRY_IMAGE:latest .
     - docker push $CI_REGISTRY_IMAGE:latest
-    - if [[ "$CI_COMMIT_TAG" -ne "" ]]; then docker tag $CI_REGISTRY_IMAGE:latest $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG && docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG; fi
+    # build version
+    - if [ "$CI_COMMIT_TAG" ] ; then
+      docker tag $CI_REGISTRY_IMAGE:latest $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG &&
+      docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG;
+      fi
 
 deploy:
   stage: deploy
@@ -38,6 +42,6 @@ deploy:
     - sed -i "s/:latest/@$DIGEST/g" k8s/deployment.yml
     - scp -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY -r k8s/* $USER_HOST@$IP_HOST:/k8s/$CI_PROJECT_NAME
   script:
-    - ssh -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY "$USER_HOST@$IP_HOST" 
+    - ssh -o StrictHostKeyChecking=no -i $PRIVATE_SSH_KEY "$USER_HOST@$IP_HOST"
       "cd /k8s/$CI_PROJECT_NAME && minikube kubectl -- apply -f service.yml &&
       minikube kubectl -- apply -f deployment.yml"
