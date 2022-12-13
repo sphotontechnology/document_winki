@@ -1,7 +1,7 @@
 ---
 title: Danh sách công việc
-slug: /see job
-sidebar_position: 7.1
+slug: list
+sidebar_position: 3.1
 ---
 
 # Xem danh sách công việc

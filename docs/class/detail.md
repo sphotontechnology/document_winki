@@ -1,7 +1,7 @@
 ---
 title: Chi tiết lớp học
-slug: /class
-sidebar_position: 2
+slug: detail
+sidebar_position: 1.2
 ---
 
 ### Các bước sử dụng các chức năng của lớp học

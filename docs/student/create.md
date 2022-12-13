@@ -1,7 +1,7 @@
 ---
 title: Thêm học sinh
-slug: /add student
-sidebar_position: 5
+slug: create
+sidebar_position: 2.34
 ---
 
 ### Các bước thêm học sinh

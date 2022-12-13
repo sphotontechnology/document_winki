@@ -1,7 +1,7 @@
 ---
 title: Xóa lớp
 slug: delete
-sidebar_position: 3
+sidebar_position: 1.4
 ---
 # Xóa lớp
 

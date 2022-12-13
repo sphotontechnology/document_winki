@@ -1,7 +1,7 @@
 ---
 title: Quản lý thông báo
-slug: /notification
-sidebar_position: 15
+slug: notification
+sidebar_position: 5.5
 ---
 
 # Quản lý thông báo

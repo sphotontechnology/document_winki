@@ -1,7 +1,7 @@
 ---
 title: Xử lý yêu cầu
-slug: /handle
-sidebar_position: 9
+slug: handle
+sidebar_position: 3.3
 ---
 
 # Xử lý yêu cầu
@@ -17,7 +17,3 @@ Click vào "Xử lý yêu cầu" giao diện hiển thị như bên dưới:
 - Bước 2: Xem trạng thái học viên
   + Màu xanh: Đã xử lý
   + Màu cam: Chưa xử lý
-
-
-
-

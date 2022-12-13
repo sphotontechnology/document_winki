@@ -1,7 +1,7 @@
 ---
 title: Quản lý khuyến mãi
-slug: /add promotion
-sidebar_position: 12
+slug: promotion
+sidebar_position: 5.1
 ---
 
 # Quản lý khuyến mãi

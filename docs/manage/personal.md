@@ -1,7 +1,7 @@
 ---
 title: Quản lý nhân sự
-slug: /personnel
-sidebar_position: 16
+slug: personal
+sidebar_position: 5.6
 ---
 
 # Quản lý nhân sự

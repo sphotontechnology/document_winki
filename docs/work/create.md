@@ -1,7 +1,7 @@
 ---
 title: Tạo công việc
-slug: /create jobs
-sidebar_position: 8
+slug: create
+sidebar_position: 3.2
 ---
 
 # Công việc

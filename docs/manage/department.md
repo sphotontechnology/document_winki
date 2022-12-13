@@ -1,7 +1,7 @@
 ---
 title: Quản lý phòng ban
-slug: /department
-sidebar_position: 18
+slug: department
+sidebar_position: 5.7
 ---
 
 # Quản lý phòng ban

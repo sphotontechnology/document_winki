@@ -1,7 +1,7 @@
 ---
 title: Quản lý lịch nghỉ
-slug: /holiday schedule
-sidebar_position: 14
+slug: holiday
+sidebar_position: 5.4
 ---
 
 # Quản lý lịch nghỉ

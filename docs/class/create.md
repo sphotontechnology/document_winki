@@ -1,7 +1,7 @@
 ---
 title: Thêm lớp
 slug: create
-sidebar_position: 2.1
+sidebar_position: 1.3
 ---
 # Thêm lớp học
 
@@ -67,7 +67,7 @@ Nhập thông tin lớp học:
 
 Các trường thông tin có dấu * đỏ là các trường thông tin bắt buộc phải điền.
 
-![alt text](/img/class/a4.0.png)
+![alt text](/img/class/a4_1.png)
 
 Đối với những lớp học oline sẽ sử dụng Zoom ID để phân chia lớp học vào các buổi học không bị trùng khung giờ học với nhau
 
@@ -79,7 +79,7 @@ Các trường thông tin có dấu * đỏ là các trường thông tin bắt 
     Là ngày mà giáo viên lựa chọn cho học sinh bắt đầu tham gia học thử
   + Học sinh được tham gia miễn phí buổi học thử
 
-![alt text](/img/class/a4.1.png)
+![alt text](/img/class/a4_2.png)
 
 > Ấn `Lưu lại` lớp học được thêm thành công
 

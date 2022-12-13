@@ -1,7 +1,7 @@
 ---
 title: Công việc
 slug: /work
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 # Công việc

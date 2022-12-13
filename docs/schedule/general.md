@@ -1,7 +1,7 @@
 ---
 title: Thời khóa biểu chung
-slug: /share
-sidebar_position: 11
+slug: general
+sidebar_position: 4.1
 ---
 
 - Bước 1: Click chuột vào "Thời khóa biểu"

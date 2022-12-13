@@ -1,7 +1,7 @@
 ---
 title: Quản lý gói học
-slug: /add package
-sidebar_position: 12
+slug: learn
+sidebar_position: 5.2
 ---
 
 # Quản lý gói học

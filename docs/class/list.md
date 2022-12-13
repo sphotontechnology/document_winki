@@ -1,6 +1,6 @@
 ---
 title: Danh sách lớp học
-slug: see
+slug: list
 sidebar_position: 1.1
 ---
 

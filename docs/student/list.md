@@ -1,7 +1,7 @@
 ---
 title: Xem danh sách học sinh
-slug: /see student
-sidebar_position: 4
+slug: list
+sidebar_position: 2.1
 ---
 
 ### Các bước xem danh sách học sinh

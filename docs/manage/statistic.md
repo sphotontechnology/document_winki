@@ -1,7 +1,7 @@
 ---
 title: Quản lý thống kê
-slug: /statistic
-sidebar_position: 19
+slug: statistic
+sidebar_position: 5.9
 ---
 
 - Bước 1: Click chuột vào "Quản lý",chọn "Báo cáo thống kê"

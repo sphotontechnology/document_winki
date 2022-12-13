@@ -1,7 +1,7 @@
 ---
 title: Quản lý đầu điểm
-slug: /point
-sidebar_position: 13
+slug: point
+sidebar_position: 5.3
 ---
 
 # Quản lý đầu điểm
@@ -49,8 +49,3 @@ Giao diện hiển thị:
 Ấn `Hủy` để hủy bỏ thao tác vừa làm
 
 **Lưu ý**: Những đầu điểm chưa được dùng có thể xóa bỏ
-
-
-
-
-

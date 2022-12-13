@@ -1,7 +1,7 @@
 ---
 title: Thời khóa biểu
 slug: /schedule
-sidebar_position: 10
+sidebar_position: 4
 ---
 # Thời khóa biểu
 

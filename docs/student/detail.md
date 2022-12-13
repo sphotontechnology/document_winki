@@ -1,10 +1,10 @@
 ---
-title: Chức năng chi tiết
-slug: /detail student
-sidebar_position: 6
+title: Xem chi tiết
+slug: detail
+sidebar_position: 2.2
 ---
 
-# Chức năng chi tiết học sinh
+# Xem chi tiết học sinh
 
 - Bước 1: Click chuột vào "Học sinh"
 
