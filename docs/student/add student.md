@@ -3,26 +3,88 @@ title: Thêm học sinh
 slug: /add student
 sidebar_position: 5
 ---
-# Thêm học sinh
 
-### Học sinh chính thức
+### Các bước thêm học sinh
 
-![alt text](/img/student/a6.png)
+- Bước 1: Thêm học sinh chính thức
 
-> Người dùng thực hiện các thao tác trên giao diện của hệ thống,các trường có dấu sao là những trường yêu cầu người dufnh bắt buộc phải nhập.Sau khi thực hiện xong các thao tác người dùng ấn ` Lưu lại ` hệ thống sẽ tự động thêm học sinh vào lớp học.
+> Thông tin học sinh
 
-### Học sinh học thử lớp chính thức
+  + Họ và tên*
+  + Ngày sinh*
+  + Cơ sở*(chon có sở hiển thị sẵn trên hệ thống)
+Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
 
-![alt text](/img/student/a7.png)
+![alt text](/img/student/a21.png)
 
-> Người dùng thực hiện các thao tác trên giao diện của hệ thống,các trường có dấu sao là những trường yêu cầu người dùng bắt buộc phải nhập.Sau khi thực hiện xong các thao tác người dùng ấn ` Lưu lại ` hệ thống sẽ tự động thêm hoc sinh học lớp học sinh học thử lớp chính thức
+> Thông tin phụ huynh
 
-### Học sinh học thử lớp học thử
+  + Kick vào ô ID gia đình
+  + Nhập mã học sinh(nhập mã học sinh do trung tâm cung cấp)
+  + Nếu gia đình đã có một người con học ở trung tâm thì thông tin phụ huynh sẽ được lưu lại trên hệ thống
 
-![alt text](/img/student/a8.png)
+  
 
-> Người dùng thực hiện các thao tác trên giao diện của hệ thống,các trường có dấu sao là những trường yêu cầu người dùng bắt buộc phải nhập.Sau khi thực hiện xong các thao tác người dùng ấn ` Lưu lại ` hệ thống sẽ tự động thêm hoc sinh học lớp họ học thử
+> Chọn chương trình học 
 
+  + Chương trình học*(chọn chương trình học có sẵn trên giao diện hệ thống)
+  + Gói chương trình*(chọn gói chương trình học có sẵn trên giao diện hệ thống)
+  + ![alt text](/img/student/a22.png)Lớp nguyện vọng*(chọn lớp nguyện vọng có sẵn trên giao diện hệ thống)
+  + Ngày bắt đầu vào lớp(ngày bắt đầu trừ buổi)
 
+![alt text](/img/student/a23.png)
 
+Ấn `Lưu lại` thêm học sinh chính thức thành công
 
+Ấn `Hủy` để hủy bỏ thao tác vừa thực hiện
+
+- Bước 2: Thêm học sinh học thử lớp chính thức
+
+> Thông tin học sinh
+  + Họ và tên *(Họ và tên học sinh)
+  + Ngày sinh*
+  + Lớp học thử*
+  + Ngày vào lớp
+
+Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
+
+![alt text](/img/student/a24.png)
+
+> Thông tin phụ huynh
+  + Họ và tên*
+  + Điện thoại liên hệ
+  + Email*
+
+Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
+
+![alt text](/img/student/a25.png)
+
+Ấn `Lưu lại` thêm học sinh học thử lớp chính thức thành công
+
+Ấn `Hủy` nếu muốn hủy bỏ thao tác
+
+- Bước 3: Thêm học sinh học thử lớp học thử
+
+> Thông tin học sinh
+
+  + Họ và tên*
+  + Điện thoại liên hệ*
+  + Email
+
+Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
+
+![alt text](/img/student/a26.png)
+
+> Thông tin phụ huynh
+
+  + Họ và tên*
+  + Điện thoại liên hệ*
+  + Email*
+
+Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
+
+![alt text](/img/student/a27.png)
+
+Ấn `Lưu lại` thêm học sinh học thử lớp chính thức thành công
+
+Ấn `Hủy` để hủy bỏ thao tác

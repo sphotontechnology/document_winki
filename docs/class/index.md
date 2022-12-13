@@ -7,20 +7,23 @@ sidebar_position: 1
 
 ### Tổng quan lớp học
 
-> Lớp học bao gồm: danh sách lớp học,lớp học đã xóa và phản hồi của phụ huynh.
+- Lớp học bao gồm ba chức năng:
+  + Xem danh sách lớp học
+  + Thêm lớp học
+  + Xóa lớp học
 
 ### Chi tiết lớp học
 
-- **Một lớp học được tạo bao gồm các chức năng**
-  + Xem chi tiết lớp
+- **Xem danh sách lớp học**
+> Sau khi thêm lớp học, có thể xem danh sách lớp học thao tác chức năng của từng lớp như:
+  + Xem chi tiết lớp học
   + Chỉnh sửa
-  + Tạm ngưng lớp 
-  + Xóa lớp
-  + Thêm học sinh vào lớp
-- **Lớp học được xóa khi**
+  + Tạm ngưng lớp
+
+- **Thêm lớp học**
+> Người dùng thực hiện thêm lớp học thử và lớp học chính thức
+
+- **Xóa lớp học**
+>Lớp học được có thể xóa khi:
   + Lớp học được tạo nhưng chưa có học sinh tham gia học
-  + Học sinh đã hoàn thành xong khóa học và chuyển sang lớp học khác
-- **Phản hồi của phụ huynh**(Đợi anh Tú phản hồi lại)
-
-
-
+  + Tất cả học sinh trong lớp đã hoàn thành khóa học và chuyển sang lớp học khác để học khóa học tiếp theo
