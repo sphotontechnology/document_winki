@@ -12,7 +12,7 @@ sidebar_position: 1
   + Thêm lớp học
   + Xóa lớp học
 
-### Chi tiết lớp học
+### Chi tiết chức năng lớp học
 
 - **Xem danh sách lớp học**
 > Sau khi thêm lớp học, có thể xem danh sách lớp học thao tác chức năng của từng lớp như:

@@ -32,7 +32,7 @@ sidebar_position: 1.2
   + Bài tập về nhà
   + Năng lực
   + Tập trung
-  + Đánh giá trung
+  + Đánh giá chung
 
 ![alt text](/img/class/a27.png)
 
@@ -45,11 +45,11 @@ sidebar_position: 1.2
 > Giáo viên thực hiện thêm bài tập về nhà cho học sinh
 
 - Bước 2: Người dùng chọn Đối tượng làm bài.
-  + Trường hợp chọn cả lớp
+ Trường hợp chọn cả lớp
 
 ![alt text](/img/class/a9.png)
-
-  + Trường hợp tùy chọn :
+ 
+ Trường hợp tùy chọn :
   + Thêm học sinh
 
 ![alt text](/img/class/a28.png)
@@ -69,7 +69,7 @@ sidebar_position: 1.2
 
 ![alt text](/img/class/a30.png)
 
-### Xem lịch sử giao bài tập
+### Xem lịch sử giao bài tập và giao bài tập
 
 - Bước 1: Người dùng click ấn vào `Giao bài tập`
 
@@ -127,7 +127,7 @@ sidebar_position: 1.2
 
 ![alt text](/img/class/a40.png)
 
-### Xem kế hoạch dạy học và thêm giáo án
+### Gửi lại email bài tập
 
 - Bước 1: Người dùng click ấn vào `Sửa lại email bài tập`
 
@@ -156,9 +156,7 @@ sidebar_position: 1.2
 
 - Bước 2: Người dùng thay đổi thông tin.
 
-  + Người dùng có thể thay đổi những thông tin như :Tên lớp *,Chọn chương trình học *,
-Kiểu lớp,Ghi chú thêm,Sĩ số tối đa *,Ngày khai giảng,Zoom ID (Lớp),Zoom Password (Lớp),
-Zoom ID (Giáo viên),Zoom Password (Giáo viên),Giáo viên *,CM *,Thời khóa biểu
+  + Người dùng có thể thay đổi những thông tin như: *Tên lớp*, *Chọn chương trình học*, *Kiểu lớp*, *Ghi chú thêm*, *Sĩ số tối đa*, *Ngày khai giảng*, *Zoom ID (Lớp)*, *Zoom Password (Lớp)*, *Zoom ID (Giáo viên)*, *Zoom Password (Giáo viên)*, *Giáo viên*, *CM*, *Thời khóa biểu*
 
 ![alt text](/img/class/a49.png)
 ![alt text](/img/class/a50.png)
@@ -211,9 +209,9 @@ Zoom ID (Giáo viên),Zoom Password (Giáo viên),Giáo viên *,CM *,Thời khó
 
 > Chọn chương trình học
 
-  + Chương trình học*(chọn chương trình học có sẵn trên giao diện hệ thống)
-  + Gói chương trình*(chọn gói chương trình học có sẵn trên giao diện hệ thống)
-  + Lớp nguyện vọng*(chọn lớp nguyện vọng có sẵn trên giao diện hệ thống)
+  + Chương trình học* (chọn chương trình học có sẵn trên giao diện hệ thống)
+  + Gói chương trình* (chọn gói chương trình học có sẵn trên giao diện hệ thống)
+  + Lớp nguyện vọng* (chọn lớp nguyện vọng có sẵn trên giao diện hệ thống)
   + Ngày bắt đầu vào lớp(ngày bắt đầu trừ buổi)
 
 Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
@@ -232,7 +230,7 @@ Bước 5: Trường hợp 2: Thêm học sinh học thử lớp chính thức
 
 > Thông tin học sinh
 
-  + Họ và tên *(Họ và tên học sinh)
+  + Họ và tên* (Họ và tên học sinh)
   + Ngày sinh*
   + Lớp học thử*
   + Ngày vào lớp
@@ -244,7 +242,7 @@ Các trường thông tin có dấu "*" đỏ là những trường bắt buộc
   > Thông tin phụ huynh
 
     + Họ và tên*
-    + Điện thoại liên hệ
+    + Điện thoại liên hệ*
     + Email*
 Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
 ![alt text](/img/class/a61.png)
@@ -256,9 +254,9 @@ Các trường thông tin có dấu "*" đỏ là những trường bắt buộc
 > Thông tin học sinh
 
   + Họ và tên*
-  + Ngày sinh
-  + Lớp học thử
-  + Chọn buổi học thử
+  + Ngày sinh*
+  + Lớp học thử*
+  + Chọn buổi học thử*
 
 Các trường thông tin có dấu "*" đỏ là những trường bắt buộc phải điền
 

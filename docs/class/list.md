@@ -8,17 +8,15 @@ sidebar_position: 1.1
 
 ### Các bước vào danh sách lớp học
 
-- Bước 1: Di chuột vào lớp học
+- Bước 1: Di chuột vào lớp học. Sau đó người dùng click vào danh sách lớp học
 
 ![alt text](/img/class/a83.png)
 
-Sau đó người dùng click vào danh sách lớp học
-
 ![alt text](/img/class/a84.png)
 
-- Bước 2: Số hàng mỗi trang
+- Bước 2: Nhập số hàng mỗi trang
 
-  + Nhập số hàng(nhập bằng số thứ tự) mong muốn hiển thị trên mỗi trang
+  + Nhập số hàng (nhập bằng số thứ tự) mong muốn hiển thị trên mỗi trang
 
 ![alt text](/img/class/a85.png)  
 
