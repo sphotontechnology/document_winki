@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'WINKI',
   tagline: 'Tài liệu hướng dẫn sử dụng winki',
-  url: 'https://sphotontechnology.github.io/document_winki',
+  url: 'https://sphotontechnology.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
