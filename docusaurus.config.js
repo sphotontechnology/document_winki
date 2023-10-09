@@ -8,14 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'WINKI',
   tagline: 'Tài liệu hướng dẫn sử dụng winki',
-  url: 'https://docs.sphoton.com',
-  baseUrl: '/winki',
+  url: 'https://sphotontechnology.github.io/document_winki',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'documents',
-  projectName: 'winki',
+  organizationName: 'sphotontechnology',
+  projectName: 'document_winki',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'vi',
